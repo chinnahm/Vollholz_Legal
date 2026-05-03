@@ -22,6 +22,20 @@ Edit `index.html` (German) and `privacy-en.html` (English): every yellow-highlig
 4. **Branch:** your default branch (e.g. `main`). **Folder:** `/docs`.
 5. Save. After a minute or two, GitHub shows the site URL (typically `https://<username>.github.io/<repo>/`).
 
+### If the `github.io` link shows 404 or “There isn’t a GitHub Pages site here”
+
+Pushing HTML to the repo **does not** turn on hosting by itself. You still need **Settings → Pages** configured as above.
+
+Checklist:
+
+1. **Settings → Pages** → **Source** must be **Deploy from a branch** (not “None”).
+2. **Branch:** `main` (or your default branch). **Folder:** **`/docs`** (because the site files live under `docs/`, not the repo root).
+3. Click **Save**, then wait **1–5 minutes** and try the URL again (hard refresh or private window).
+
+**GitHub Free (personal account):** GitHub Pages only publishes from a **public** repository. If `Vollholz_Legal` is **private**, the site will not deploy on the free plan. Either make the repo **public** (this repo only contains the legal pages and static HTML, not your app source) or upgrade to **GitHub Pro**, or host the files elsewhere.
+
+When it works, **Settings → Pages** shows a green banner with the exact live URL — use that link if anything differs from what you expect.
+
 ## 3. URL for Google Play Console
 
 Use the **German** page as the primary policy link unless you prefer English:
