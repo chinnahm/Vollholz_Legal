@@ -2,6 +2,12 @@
 
 These files are **static HTML** so GitHub Pages does not need Jekyll configuration.
 
+### Why README looks “nice” but the HTML files look like code
+
+On **github.com**, GitHub **renders** Markdown files such as this `README.md` as formatted text when you browse the repo. For **`.html` files**, GitHub **does not** run them as a webpage in the file viewer; it only shows the **source** (tags and text). That is normal and expected.
+
+**The policy as a real page** is only served at your **GitHub Pages** URL (after Pages is enabled), e.g. `https://<username>.github.io/Vollholz_Legal/` — open that in a browser, not the “blob” link under *Code → docs → index.html*.
+
 If the GitHub repository is **private**, check your GitHub plan: free Pages hosting often requires a **public** repo, or use a small separate public repository that only contains these `docs/` files.
 
 ## 1. Replace placeholders
