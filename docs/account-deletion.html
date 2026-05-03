@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vollholz — Konto löschen / Account deletion</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.55; max-width: 42rem; margin: 2rem auto; padding: 0 1.25rem; }
+    h1 { font-size: 1.35rem; }
+    h2 { font-size: 1.05rem; margin-top: 1.5rem; }
+    p, li { margin: 0.5rem 0; }
+    ul { padding-left: 1.25rem; }
+    .placeholder { background: #fff3cd; padding: 0 0.2em; }
+    @media (prefers-color-scheme: dark) {
+      .placeholder { background: #4a3f00; color: #f5e6a3; }
+    }
+    .lang { margin-bottom: 1.25rem; font-size: 0.95rem; }
+    .lang a { color: inherit; }
+  </style>
+</head>
+<body>
+  <p class="lang"><a href="index.html">Datenschutzerklärung</a> · <a href="privacy-en.html">Privacy policy (EN)</a></p>
+
+  <h1>Vollholz — Konto löschen</h1>
+
+  <h2>So löschen Sie Ihr Konto (App)</h2>
+  <ol>
+    <li>Öffnen Sie die App <strong>Vollholz</strong> und melden Sie sich an.</li>
+    <li>Öffnen Sie das <strong>Menü</strong> (Seitenleiste).</li>
+    <li>Tippen Sie auf <strong>„Konto löschen“</strong> und bestätigen Sie den Hinweis.</li>
+  </ol>
+  <p>Die Löschung erfolgt serverseitig; Sie werden anschließend abgemeldet.</p>
+
+  <h2>Alternative (E-Mail)</h2>
+  <p>
+    Wenn die App-Löschung nicht funktioniert, senden Sie eine E-Mail an
+    <a href="mailto:christiankloecker@protonmail.com">christiankloecker@protonmail.com</a>
+    mit Betreff <strong>„Vollholz — Konto löschen“</strong> und der E-Mail-Adresse Ihres Kontos.
+    Wir bearbeiten die Anfrage, sobald wir sie verifizieren können.
+  </p>
+
+  <h2>Welche Daten werden gelöscht?</h2>
+  <ul>
+    <li>Ihr <strong>Firebase-Authentifizierungskonto</strong> (z. B. E-Mail/Passwort oder verknüpfter OAuth-Zugang auf unserer Seite).</li>
+    <li>Ihr Dokument unter <code>users/&lt;Ihre Nutzer-ID&gt;</code> (z. B. Push-Token und zugehörige App-Einstellungen).</li>
+    <li>Ihr <strong>Profilbild</strong> in unserem Speicher (falls vorhanden).</li>
+    <li>Ihre <strong>Mitgliedschaft</strong> in allen Clubs: Sie werden aus Mitgliederlisten entfernt; Ihr Mitgliedsdokument im Club wird gelöscht.</li>
+    <li>Wenn Sie das <strong>letzte Mitglied</strong> eines Clubs sind, kann der gesamte Club inkl. zugehöriger Daten und Vereinsbild entfernt werden (wie bei „Club verlassen“ ohne weitere Mitglieder).</li>
+  </ul>
+
+  <h2>Was kann bleiben?</h2>
+  <ul>
+    <li>In Clubs, in denen <strong>andere Mitglieder</strong> bleiben, können historische Abende, Würfe oder Schuldenstände weiterhin sichtbar sein, soweit sie zum Club gehören und andere berechtigt sind, diese Daten zu sehen. Ihr persönliches Login und Ihre direkt unter Ihrer Nutzer-ID gespeicherten Profildaten werden entfernt.</li>
+    <li><strong>Sicherungskopien</strong> bei Hosting-Anbietern können noch kurze Zeit technisch vorgehalten werden, werden aber im Rahmen der üblichen Löschzyklen entfernt.</li>
+  </ul>
+
+  <h2>Aufbewahrung (Retention)</h2>
+  <p>
+    Nach erfolgreicher Löschung gibt es kein aktives Nutzerkonto mehr. Gesetzliche Aufbewahrungspflichten (falls einmal relevant) bleiben unberührt und betreffen in der Regel nicht den normalen App-Betrieb für Privatvereine.
+  </p>
+
+  <hr style="margin: 2rem 0; opacity: 0.3;" />
+
+  <h1 id="en">Vollholz — Account deletion (English)</h1>
+
+  <h2>Delete your account (in the app)</h2>
+  <ol>
+    <li>Open the <strong>Vollholz</strong> app and sign in.</li>
+    <li>Open the <strong>menu</strong> (side drawer).</li>
+    <li>Tap <strong>“Delete account”</strong> and confirm the warning.</li>
+  </ol>
+  <p>Deletion is processed on the server; you will be signed out afterwards.</p>
+
+  <h2>Alternative (email)</h2>
+  <p>
+    If in-app deletion fails, email <a href="mailto:christiankloecker@protonmail.com">christiankloecker@protonmail.com</a>
+    with subject <strong>“Vollholz — delete account”</strong> and the email address of the account to delete. We will process the request after verification.
+  </p>
+
+  <h2>What is deleted?</h2>
+  <ul>
+    <li>Your <strong>Firebase Authentication</strong> user.</li>
+    <li>Your <code>users/&lt;your user id&gt;</code> document (e.g. push token and related fields).</li>
+    <li>Your <strong>profile image</strong> in our storage bucket, if any.</li>
+    <li>Your <strong>membership</strong> in every club (removed from member lists; your member document removed).</li>
+    <li>If you are the <strong>last member</strong> of a club, the whole club and its icon may be removed (same behaviour as leaving an otherwise empty club).</li>
+  </ul>
+
+  <h2>What may be kept?</h2>
+  <ul>
+    <li>In clubs where <strong>other members</strong> remain, historical session or score data may stay visible to those members as part of the club record. Your login and data stored under your user ID for the app are removed.</li>
+    <li><strong>Backups</strong> at our providers may persist for a short technical retention window.</li>
+  </ul>
+</body>
+</html>
